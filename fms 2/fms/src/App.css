@@ -1,0 +1,108 @@
+body {
+  background-color: #f9fafa;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .div1, .div2 {
+      width: 1300px;
+  }
+
+  .nav1 {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .nav1 h6 {
+      margin-left: 210px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 600px) {
+  .nav1 {
+      padding: 10px 20px;
+  }
+
+  .nav1 img {
+      width: 70px;
+      height: 70px;
+  }
+
+  .div1, .div2 {
+      width: 100%;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .mindiv1, .mindiv2, .mindiv3, .mindiv4, .mindiv5, .mindiv6 {
+      width: 45%;
+      height: 200px;
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav1 {
+      display: block;
+      text-align: center;
+  }
+
+  .nav1 h6 {
+      margin-left: 100px;
+      margin-top: 10px;
+      visibility: hidden;
+  }
+
+  .nav1 img {
+      width: 120px;
+      height: 100px;
+      margin-top: -30px;
+  }
+
+  .div1, .div2 {
+      width: 100%;
+      margin: 10px 0;
+      margin-top: 100px;
+  }
+
+  .mindiv1, .mindiv2, .mindiv3, .mindiv4, .mindiv5, .mindiv6 {
+      width: 100%;
+      margin: 10px 0;
+      height: auto;
+  }
+
+  .mindiv1 img, .mindiv2 img, .mindiv3 img, .mindiv4 img, .mindiv5 img, .mindiv6 img {
+      width: 100%;
+      height: auto;
+  }
+
+  .signout-btn {
+      width: 80%;
+      margin: 10px auto;
+      font-size: 14px;
+  }
+  /* App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the app covers the full viewport */
+}
+
+.navbar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;  /* or whatever width your navbar should have */
+  height: 100vh;
+  background-color: #f4f4f4; /* Adjust for your design */
+}
+
+.main-content {
+  margin-left: 200px; /* Give space for the sidebar */
+  padding: 20px;
+  flex: 1; /* The main content will take the remaining space */
+  background-color: #fff;
+}
+
+}

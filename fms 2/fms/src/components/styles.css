@@ -1,0 +1,12 @@
+/* styles.css */
+
+.page-background {
+    min-height: 100vh;
+    background-image: url('https://dme2wmiz2suov.cloudfront.net/User(90588750)/CourseBundles(42566)/2947426-Finance_2.jpg'); /* Your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
