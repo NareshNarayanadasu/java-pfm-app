@@ -18,7 +18,7 @@ services:
 
   frontend:
     build:
-      context: ./frontend
+      context: ./frontend/fms
     container_name: react-app
     ports:
       - "3000:80"
