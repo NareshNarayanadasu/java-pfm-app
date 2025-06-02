@@ -3,7 +3,7 @@ services:
   db:
     image: mysql:8
     environment:
-      MYSQL_ROOT_PASSWORD: @naresh
+      MYSQL_ROOT_PASSWORD: "@naresh"
     ports:
       - "3306:3306"
 
